@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Auto Post On Signup" lan="APOS_LINK_NAME" version="2.0" date="2022-03-25" compatibility="2.3.1" installRequired="true" >
+	<author name="Martinj" url="https://www.e107sk.com" />
+	<summary lan="">Auto Post On Signup</summary>
+	<description lan="">Auto Post On Signup</description>
+	<keywords>
+		<word>enhancement</word>
+		<word>forum</word>
+		<word>user</word>
+	</keywords>
+	<category>users</category>
+	<copyright>Jimako</copyright>
+	<adminLinks>
+		<link url='admin_config.php' description='Configure APOS Plugin' icon='images/apos_32.png' iconSmall='images/apos_16.png' icon128="" primary='true' >LAN_CONGIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='apos_forum'>1</pref>
+		<pref name='apos_title'></pref>
+		<pref name='apos_text'></pref>
+		<pref name='apos_userid'>1</pref>
+	</pluginPrefs>
+</e107Plugin>
